@@ -1,0 +1,25 @@
+public class Maxarray{
+public static void main(String args[]){
+int arr[]={1,2,3,4};
+int output[]=new int[arr.length];
+int prefix=1;
+
+for(int i=0;i<arr.length;i++){
+output[i]=prefix;
+//System.out.print(prefix+ " ");
+prefix=prefix*arr[i];
+
+}
+int suffix=1;
+for(int i=arr.length-1;i>=0;i--){
+output[i]*=suffix;
+suffix=suffix*arr[i];
+
+}
+for(int i=0;i<arr.length;i++){
+
+System.out.print(output[i]+ " ");
+}
+}
+}
+
