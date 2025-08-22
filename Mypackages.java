@@ -1,0 +1,25 @@
+package comm.diyaBabani;
+public class Mypackages{
+public static int sum(int a,int b){
+return a+b;
+}
+public static void main(String args[]){
+
+System.out.println(" hi this is package example");
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+}
