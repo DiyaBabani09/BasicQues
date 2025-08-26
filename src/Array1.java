@@ -1,4 +1,3 @@
- import java.util.*;
 public class Array1{
 //quick sort
 public static int pivot(int arr[],int s,int e){
